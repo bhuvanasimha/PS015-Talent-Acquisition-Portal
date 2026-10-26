@@ -1,0 +1,30 @@
+server:
+  port: 8083
+
+spring:
+  application:
+    name: PROFILE-SERVICE
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/talent_profile_db
+    username: root
+    password: Bhuvi@2006
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+jwt:
+  secret: 12345678901234567890123456789012345678901234567890
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info

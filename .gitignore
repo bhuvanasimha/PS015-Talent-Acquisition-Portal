@@ -1,0 +1,26 @@
+
+# Maven generated files
+**/target/
+
+# Eclipse / Spring Tool Suite
+**/.classpath
+**/.project
+**/.settings/
+**/.springBeans
+
+# IntelliJ / VS Code
+.idea/
+.vscode/
+
+# Compiled files and logs
+*.class
+*.log
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Operating system files
+.DS_Store
+Thumbs.db
